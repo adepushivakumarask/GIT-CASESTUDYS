@@ -1,0 +1,68 @@
+Case Study 1: Basic Git Workflow
+Objective: Learn to initialize a repository, make commits, and push changes.
+Actions:
+-- Initialized a new Git repository using 'git init'.
+-- Created a simple "Hello, World!" program in 'HelloWorld.java'.
+-- Added changes to the staging area with 'git add HelloWorld.java'.
+-- Committed the changes using 'git commit -m "Added HelloWorld.java" '.
+-- Pushed the changes to GitHub with 'git push origin main '.
+Outcome: Successfully uploaded the initial code to the remote repository.
+
+----------------------------------------------------------------------------------------
+
+Objective: Understand how to create branches, add features, and merge them back.
+Actions:
+-- Created a new branch 'new-feature' with 'git checkout -b new-feature'.
+-- Made changes to 'HelloWorld.java'.
+-- Committed changes with 'git commit -m "Added new feature" '.
+-- Merged changes back into 'main' using 'git checkout main; followed by 'git merge new-feature'.
+Outcome: Integrated new-features into the main branch.
+
+----------------------------------------------------------------------------------------
+
+Case Study 3: Collaborative Workflow
+Objective: Simulate team collaboration with cloning and pull requests.
+Actions:
+-- Cloned the repository using 'git clone git@github.com:adepushivakumarask/GIT-CASESTUDYS.git'.
+-- Created a new branch for features and pushed changes.
+-- Created a pull request on GitHub for code review.
+Outcome: Practiced collaborative workflows and pull requests.
+
+----------------------------------------------------------------------------------------
+
+Case Study 4: Reverting Changes
+Objective: Learn to undo changes using revert.
+Actions:
+-- Made changes in 'HelloWorld.java'.
+-- Used 'git revert 426df9284bb0bbf1bbbdc3dfb68f437db79ec363(HEAD)' to undo a specific commit.
+-- Pushed the changes back to the repository.
+Outcome: Successfully reverted changes and updated the repository.
+
+----------------------------------------------------------------------------------------
+
+Case Study 5: Using Git with GitHub Pages
+Objective: Practice deploying a static website using GitHub Pages.
+Actions:
+-- Created an 'index.html' file.
+-- Updated the repository settings for GitHub Pages.
+-- Pushed the changes to make the website live.
+Outcome: Successfully hosted a static website on GitHub Pages.
+
+----------------------------------------------------------------------------------------
+
+Case Study 6: Working with Git Tags
+Objective: Understand how to use tags for versioning.
+Actions:
+-- Created tags using 'git tag v1.0' to mark specific commits.
+-- Pushed tags to the remote repository using git 'push origin v1.0'.
+Outcome: Marked important points in the repository's history.
+
+----------------------------------------------------------------------------------------
+
+Case Study 7: Stashing Changes
+Objective: Temporarily save changes and apply them after switching branches.
+Actions:
+-- Used 'git stash' to save changes.
+-- Switched branches with 'git checkout -b feature-branch.'
+-- Applied stashed changes using 'git stash apply'.
+Outcome: Practiced managing uncommitted changes.
